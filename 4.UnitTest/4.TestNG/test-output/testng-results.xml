@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-11-15T12:08:08 COT" name="Default suite" finished-at="2019-11-15T12:08:08 COT" duration-ms="379">
+    <groups>
+      <group name="guardar">
+        <method signature="OrdenTest.guardarOrderExitoso()[pri:0, instance:co.edu.icesi.Test_NG.OrdenTest@8909f18]" name="guardarOrderExitoso" class="co.edu.icesi.Test_NG.OrdenTest"/>
+        <method signature="OrdenTest.guardarOrderFallido()[pri:0, instance:co.edu.icesi.Test_NG.OrdenTest@8909f18]" name="guardarOrderFallido" class="co.edu.icesi.Test_NG.OrdenTest"/>
+      </group> <!-- guardar -->
+      <group name="exitoso">
+        <method signature="OrdenTest.actualizarOrderExitoso()[pri:0, instance:co.edu.icesi.Test_NG.OrdenTest@8909f18]" name="actualizarOrderExitoso" class="co.edu.icesi.Test_NG.OrdenTest"/>
+        <method signature="OrdenTest.guardarOrderExitoso()[pri:0, instance:co.edu.icesi.Test_NG.OrdenTest@8909f18]" name="guardarOrderExitoso" class="co.edu.icesi.Test_NG.OrdenTest"/>
+      </group> <!-- exitoso -->
+      <group name="actualizar">
+        <method signature="OrdenTest.actualizarOrderExitoso()[pri:0, instance:co.edu.icesi.Test_NG.OrdenTest@8909f18]" name="actualizarOrderExitoso" class="co.edu.icesi.Test_NG.OrdenTest"/>
+        <method signature="OrdenTest.actualizarOrderFallido()[pri:0, instance:co.edu.icesi.Test_NG.OrdenTest@8909f18]" name="actualizarOrderFallido" class="co.edu.icesi.Test_NG.OrdenTest"/>
+      </group> <!-- actualizar -->
+      <group name="global">
+        <method signature="OrdenTest.ordenTest()[pri:0, instance:co.edu.icesi.Test_NG.OrdenTest@8909f18]" name="ordenTest" class="co.edu.icesi.Test_NG.OrdenTest"/>
+      </group> <!-- global -->
+      <group name="fallido">
+        <method signature="OrdenTest.actualizarOrderFallido()[pri:0, instance:co.edu.icesi.Test_NG.OrdenTest@8909f18]" name="actualizarOrderFallido" class="co.edu.icesi.Test_NG.OrdenTest"/>
+        <method signature="OrdenTest.guardarOrderFallido()[pri:0, instance:co.edu.icesi.Test_NG.OrdenTest@8909f18]" name="guardarOrderFallido" class="co.edu.icesi.Test_NG.OrdenTest"/>
+      </group> <!-- fallido -->
+    </groups>
+    <test started-at="2019-11-15T12:08:08 COT" name="Default test" finished-at="2019-11-15T12:08:08 COT" duration-ms="379">
+      <class name="co.edu.icesi.Test_NG.OrdenTest">
+        <test-method is-config="true" signature="context()[pri:0, instance:co.edu.icesi.Test_NG.OrdenTest@8909f18]" started-at="2019-11-15T12:08:08 COT" name="context" finished-at="2019-11-15T12:08:08 COT" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- context -->
+        <test-method signature="actualizarOrderExitoso()[pri:0, instance:co.edu.icesi.Test_NG.OrdenTest@8909f18]" started-at="2019-11-15T12:08:08 COT" name="actualizarOrderExitoso" finished-at="2019-11-15T12:08:08 COT" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- actualizarOrderExitoso -->
+        <test-method signature="actualizarOrderFallido()[pri:0, instance:co.edu.icesi.Test_NG.OrdenTest@8909f18]" started-at="2019-11-15T12:08:08 COT" name="actualizarOrderFallido" finished-at="2019-11-15T12:08:08 COT" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- actualizarOrderFallido -->
+        <test-method signature="guardarOrderExitoso()[pri:0, instance:co.edu.icesi.Test_NG.OrdenTest@8909f18]" started-at="2019-11-15T12:08:08 COT" name="guardarOrderExitoso" finished-at="2019-11-15T12:08:08 COT" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- guardarOrderExitoso -->
+        <test-method signature="guardarOrderFallido()[pri:0, instance:co.edu.icesi.Test_NG.OrdenTest@8909f18]" started-at="2019-11-15T12:08:08 COT" name="guardarOrderFallido" finished-at="2019-11-15T12:08:08 COT" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- guardarOrderFallido -->
+        <test-method signature="ordenTest()[pri:0, instance:co.edu.icesi.Test_NG.OrdenTest@8909f18]" started-at="2019-11-15T12:08:08 COT" name="ordenTest" depends-on-groups="guardar, actualizar" finished-at="2019-11-15T12:08:08 COT" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ordenTest -->
+      </class> <!-- co.edu.icesi.Test_NG.OrdenTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
